@@ -69,20 +69,24 @@ header{
 .conteudo-principal{
     width: 700px;
     height: 400px;
-    background: black url('img/62407519ee791.jpeg') no-repeat center center fixed; 
+    
+/*}
+
+main{*/
+    background: black url('img/62407519ee791.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
 
 .navbar-right{
         position: absolute;
-        transform: translate(1115px, -57px);
+        transform: translate(1115px, -69px);
         font-family: "SoDo Sans SemiBold";
         text-transform: uppercase;
         color: black;
 }
 
 
-    .link1{
+.link1{
         font-weight: bolder;
         color: black;
         font-size: 15px;
@@ -90,6 +94,23 @@ header{
         margin: 0px 10px;
         border: black 1px solid;
         border-radius: 17px;
-        padding: 3px 10px;
-    }
+        padding: 9px 10px;
+}
+.link1:hover{
+    transition: 0.7s;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.466);
+}
+.link1:not(:hover){
+    transition: 0.7s;
+    font-size: 15px;
+}
+.text-cont-principal{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding: 15px;
+
+}
 
