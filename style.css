@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+
+@font-face {
+    font-family: fonte-main;
+    src: url(font/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9CY94XsnPc.ttf);
+}
+
 @font-face {
     font-family: "fonte";
     src: url(font/Caprasimo-Regular.ttf);
@@ -69,13 +75,17 @@ header{
 .conteudo-principal{
     width: 700px;
     height: 400px;
-    
-/*}
-
-main{*/
     background: black url('img/62407519ee791.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
+
+main{
+    height: 1300px;
+    background-color: gray;
+}
+    
+    
+
 
 .navbar-right{
         position: absolute;
@@ -111,6 +121,7 @@ main{*/
     background-color: rgba(0, 0, 0, 0.459);
     color: white;
     padding: 15px;
-
+    font-family: 'fonte-main';
+    transform: translate(10px, 10px);
 }
 
