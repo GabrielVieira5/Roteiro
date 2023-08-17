@@ -58,13 +58,13 @@ header{
 }
 
 .divi-conteudo{
-    width: 700px;
-    height: 400px;
+    width: 1300px;
+    height: 700px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0);
 }
 
-.conteudo{
+.titulo{
     font-size: 50px;
     font-family: fonte;
     text-align: center;
@@ -75,8 +75,10 @@ header{
 .conteudo-principal{
     width: 700px;
     height: 400px;
-    background: black url('img/62407519ee791.jpeg') no-repeat center center fixed;
-    background-size: cover;
+    
+
+    /*background: black url('img/62407519ee791.jpeg') no-repeat center center fixed;
+    background-size: cover;*/
 }
 
 main{
@@ -117,11 +119,19 @@ main{
     transition: 0.7s;
     font-size: 15px;
 }
-.text-cont-principal{
+.cont-text1{
+    width: 600px;
+    height: 300px;
     background-color: rgba(0, 0, 0, 0.459);
     color: white;
     padding: 15px;
     font-family: 'fonte-main';
-    transform: translate(10px, 10px);
+    
 }
 
+.img1{
+    width: 400px;
+    height: auto;
+    transform: translate(633px, -310px);
+
+}
