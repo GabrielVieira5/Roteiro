@@ -28,6 +28,7 @@ body{
 
 .navbar-left{
     transform: translate(77px, -57px);
+    width: 500px;
 }
 
 .link{
