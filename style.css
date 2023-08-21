@@ -20,7 +20,10 @@
     url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold")format("svg");
 }
-
+@font-face {
+    font-family: fonte-dnv;
+    src: url(font/Ginevra\ Demo.ttf);
+}
 body{
     margin: 0;
 }
@@ -97,22 +100,52 @@ header{
     transition: 0.7s;
     font-size: 15px;
 }
-.conteudo-initial{
-    
-    transform: translate(0, -19px);
-    margin: 0;
-    background: black url(img/schumacher-f1.jpg) no-repeat center center;
-    background-attachment: fixed;
+h1{
+    font-family: 'fonte-dnv';
 }
-.text-cont{
-    height: 550px;
+p{
+    margin: auto;
+    font-family: 'fonte-main';
+    width: 400px;
 }
-.conteudo-initial > h1, p{
-    width: 350px;
+.part1{
+    text-align:center;
 }
-.text-group{
-    transform: translate(70px, 200px);
-    font-family: fonte-main;
+section.imgs{
+    padding-left: 180px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    margin: auto;
+}
+.senna-img{
+    width: 500px;
+    height: auto;
+}
+.hamilton-img{
+    width: 496px;
+    height: auto;
+}
+
+.mais{
+    margin-top: 15px;
+    margin-left: 624px;
+    padding: 10px;
+    border-radius: 12px;
+    font-family: SoDo Sans SemiBold;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+.mais:hover{
+    transition: 0.7s;
+    font-size: 13px;
+    background-color: black;
     color: white;
-    font-size: 40px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.466);
+}
+.mais:not(:hover){
+    transition: 0.7s;
+    font-size: 15px;
 }
