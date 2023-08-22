@@ -30,6 +30,7 @@ body{
 
 
 .navbar-left{
+    
     transform: translate(77px, -57px);
     width: 500px;
 }
@@ -102,6 +103,7 @@ header{
 }
 h1{
     font-family: 'fonte-dnv';
+
 }
 p{
     margin: auto;
@@ -120,17 +122,21 @@ section.imgs{
 .senna-img{
     width: 500px;
     height: auto;
+    border-radius: 15px;
+    max-width: 100%;
 }
 .hamilton-img{
     width: 496px;
     height: auto;
+    border-radius: 15px;
+    max-width: 100%;
 }
 
 .mais{
     margin-top: 15px;
     margin-left: 624px;
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 17px;
     font-family: SoDo Sans SemiBold;
     font-size: 15px;
     text-decoration: none;
@@ -148,4 +154,17 @@ section.imgs{
 .mais:not(:hover){
     transition: 0.7s;
     font-size: 15px;
+}
+
+.oq-fizsect > h1{
+    padding-top: 25px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+.oq-fizsect{
+    margin-top:20px;
+    background-color: greenyellow;
+    padding: 15px;
+    text-align: center;
 }
